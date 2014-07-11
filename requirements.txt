@@ -8,3 +8,5 @@ flask
 unicodecsv
 boto
 Pillow
+uwsgi
+supervisor
