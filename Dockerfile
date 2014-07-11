@@ -28,8 +28,4 @@ ADD requirements.txt /data/requirements.txt
 RUN pip install -r /data/requirements.txt
 
 # Define default command.
-# CMD ["mecab"]
-
-# Expose ports.
-#   - 5000: HTTP
-EXPOSE 5000
+# CMD ["python"]
