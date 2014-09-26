@@ -16,7 +16,7 @@ RUN \
       libtiff4-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev \
       libwebp-dev tcl8.5-dev tk8.5-dev python-tk && \
   wget https://bootstrap.pypa.io/ez_setup.py -O - | python && \
-  easy_install pip 
+  easy_install pip
 
 # Define mountable directories.
 VOLUME ["/data"]
