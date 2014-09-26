@@ -10,3 +10,4 @@ boto
 Pillow
 uwsgi
 supervisor
+elasticsearch
